@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+/* Side Menu of the Webpage */
+
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 15%;
+  float: left;
+  padding-top: 120px;
+  background-color: lightblue;
+  border-right: 1px solid black;
+}
+
+.sidebar ul li {
+  text-align: left;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.sidebar ul li a {
+  height: 75px;
+  display: block;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sidebar ul li a:hover {
+  background-color: cadetblue;
+  color: red;
+}
+
+/* Header of the Webpage */
+
+.bodyContent .header {
+  position: inherit;
+  height: 120px;
+  width: 85%;
+  float: right;
+  background-color: lightblue;
+  border-bottom: 1px solid black;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 125px;
+  color: black;
+}
+
+.bodyContent .header img {
+  height: 100px;
+  width: 100px;
+  float: left;
+  padding-left: 40px;
+  padding-right: 60px;
+  padding-top: 10px;
+}
+
+#date {
+  padding-right: 50px;
+  float: right;
+  font-size: 10px;
+  padding-top: 10px;
+}
+
+/* Body Content of the Webpage*/
+
+.bodyContent .content {
+  width: 85%;
+  float: right;
+  margin: 0 auto;
+  background-image: url(back.png);
+}
+
+/* Homepage */
+#home {
+  height: 1400px;
+  width: 100%;
+}
+
+#home #homepic {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-style: solid;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  background-color: white;
+  background-image: url(homepic.jpeg);
+  background-size: 1500px 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  font-weight: 900;
+  font-size: 100px;
+  color: black;
+}
+
+#home #homeinfo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-style: solid;
+  background-color: lightblue;
+  color: black;
+  font-size: 20px;
+}
+
+/* Browse Page */
+#browse {
+  height: 1400px;
+  width: 100%;
+}
+
+#browse span {
+  font-weight: bold;
+  font-size: 23px;
+  color: black;
+}
+
+#browse .browsing {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(208, 227, 233);
+}
+
+#browse img {
+  position: relative;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  height: 400px;
+  width: 600px;
+}
+
+#browse button {
+  padding: 10px;
+}
+
+/* Find a Dog/Cat Page */
+#find {
+  height: 1400px;
+  width: 100%;
+}
+
+#find form {
+  background-image: url(form1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+/* Dog Care */
+#dogcare {
+  height: 1400px;
+  width: 100%;
+}
+
+#dogcare .dogcaring {
+  width: 100%;
+  height: 900px;
+  background-color: rgb(208, 227, 233);
+  background-image: url();
+}
+
+#dogcare .dogcaring span {
+  font-size: 20px;
+}
+
+#dogcare .dogcaring p {
+  font-size: 15px;
+}
+
+/* Cat Care */
+#catcare {
+  height: 1400px;
+  width: 100%;
+}
+
+#catcare .catcaring {
+  width: 100%;
+  height: 900px;
+  background-color: rgb(208, 227, 233);
+}
+
+#catcare .catcaring span {
+  font-size: 20px;
+}
+
+#catcare .catcaring p {
+  font-size: 15px;
+}
+
+/* A pet to give away */
+#giveaway {
+  height: 1400px;
+  width: 100%;
+}
+
+#giveaway form {
+  background-image: url(form2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 500px 500px;
+}
+
+/* Contact us */
+#contact {
+  height: 1400px;
+  width: 100%;
+}
+
+#contact h1 {
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#contact p {
+  font-size: 30px;
+}
+
+#contact .contactus {
+  font-size: 20px;
+}
+
+/* Privacy */
+#privacy {
+  height: 1400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.content #signup {
+  height: 1400px;
+  width: 100%;
+}
+
+#privacy .privacyclass {
+  background-color: lightsteelblue;
+  height: 300px;
+  width: 100%;
+}
+
+#privacy .privacyclass p {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* Footer Area of the Webpage*/
+
+.bodyContent .footer {
+  width: 85%;
+  position: inherit;
+  height: 120px;
+  float: right;
+  bottom: 0;
+  background-color: rgb(56, 160, 192);
+  border-top: 1px solid black;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding-left: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.footer p {
+  float: right;
+  padding-right: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Forms for giveaway and finding and contact*/
+form {
+  padding: 50px;
+  border: 1px solid;
+}
+
+form fieldset {
+  border: navy dashed;
+}
+
+form span {
+  padding: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+form legend {
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+  padding: 10px;
+}
